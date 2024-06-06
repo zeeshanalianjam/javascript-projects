@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="centerCont">
+        <div class="container">
+            <!-- nav -->
+            <div class="nav">
+                <input type="text" placeholder="Enter city name">
+                <i class="fa-solid iconNav fa-magnifying-glass"></i>
+            </div>  
+            <!-- navEnd -->
+            <!-- weather -->
+            <div class="weather">
+                <div class="weather-box">
+                    <div class="weather-icon">
+                        <i class="fa-solid sunIcon iconWeather fa-sun"></i>
+                    </div>
+                    <div class="weather-info">
+                        <h1 class="weather-temp">51°C</h1>
+                        <h2 class="weather-city">Dhaka</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- weatherEnd -->
+
+            <!-- humidity and wind -->
+            <div class="mainContEqualHumiWind">
+                <div class="humidity">
+                    <div class="humidity-icon">
+                        <i class="fa-solid humidityIcon iconHumidity fa-tint"></i>
+                    </div>
+                    <div class="humidity-info">
+                        <h1 class="humidity-temp">51%</h1>
+                        <h2 class="humidity-city">Humidity</h2>
+                    </div>
+                </div>
+                <div class="wind">
+                    <div class="wind-icon">
+                        <i class="fa-solid windIcon iconWind fa-wind"></i>
+                    </div>
+                    <div class="wind-info">
+                        <h1 class="wind-temp">51%</h1>
+                        <h2 class="wind-city">Wind</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- humidity and wind end -->
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

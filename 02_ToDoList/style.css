@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: blueviolet;
+}
+.todoContainer{
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    padding:10px;
+    margin: 60px auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.inputContainer{
+    background-color: #e7f1ee;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+input{
+    flex: 1;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #e7f1ee;
+}
+#addBtn{
+    background-color: #9e48fffc;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+}
+
+.listContainer{
+    margin: 20px 0px;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 10px 20px;
+    /* position: relative; */
+    
+}
+/* ul li.checked{
+    text-decoration: line-through;
+    color: #555;
+} */
+
+li{
+    position: relative;
+}
+ul span{
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: -3px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul span:hover{
+    border-radius: 48%;
+    background-color: #b6f4f4;
+}
+
+
+#clearBtn{
+    background-color: #9e48fffc;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+#clearBtn:hover{
+    background: linear-gradient(135deg, rgb(186, 250, 250), rgb(241, 200, 123), rgb(129, 2, 129));
+    transform: scale(1.1);
+    color: black;
+}
+
